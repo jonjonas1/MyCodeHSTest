@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17790" started-at="2018-09-07T12:31:12Z" finished-at="2018-09-07T12:31:30Z">
+  <suite name="Default suite" duration-ms="15220" started-at="2018-09-07T18:25:55Z" finished-at="2018-09-07T18:26:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17790" started-at="2018-09-07T12:31:12Z" finished-at="2018-09-07T12:31:30Z">
-      <class name="com.chs.testsAccount.LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.chs.testsAccount.LoginTest@3e14c16d]" name="setUp" is-config="true" duration-ms="17530" started-at="2018-09-07T12:31:12Z" finished-at="2018-09-07T12:31:30Z">
+    <test name="Default test" duration-ms="15220" started-at="2018-09-07T18:25:55Z" finished-at="2018-09-07T18:26:11Z">
+      <class name="com.chs.testsCases.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.chs.testsCases.LoginTest@793138bd]" name="setUp" is-config="true" duration-ms="3850" started-at="2018-09-07T18:25:55Z" finished-at="2018-09-07T18:25:59Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,15 +16,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="defaultSavings()[pri:1, instance:com.chs.testsAccount.LoginTest@3e14c16d]" name="defaultSavings" duration-ms="142" started-at="2018-09-07T12:31:30Z" description="LoginTest" finished-at="2018-09-07T12:31:30Z">
+        <test-method status="PASS" signature="LoginSetUp()[pri:1, instance:com.chs.testsCases.LoginTest@793138bd]" name="LoginSetUp" duration-ms="198" started-at="2018-09-07T18:25:59Z" description="LoginTest" finished-at="2018-09-07T18:26:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- defaultSavings -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.chs.testsAccount.LoginTest@3e14c16d]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-07T12:31:30Z" finished-at="2018-09-07T12:31:30Z">
+        </test-method> <!-- LoginSetUp -->
+        <test-method status="PASS" signature="StudentSign()[pri:2, instance:com.chs.testsCases.LoginTest@793138bd]" name="StudentSign" duration-ms="915" started-at="2018-09-07T18:26:00Z" description="StudentLogin" finished-at="2018-09-07T18:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentSign -->
+        <test-method status="PASS" signature="fillOutForm()[pri:3, instance:com.chs.testsCases.LoginTest@793138bd]" name="fillOutForm" duration-ms="9396" started-at="2018-09-07T18:26:00Z" description="filloutForm" finished-at="2018-09-07T18:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillOutForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.chs.testsCases.LoginTest@793138bd]" name="tearDown" is-config="true" duration-ms="781" started-at="2018-09-07T18:26:10Z" finished-at="2018-09-07T18:26:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.chs.testsAccount.LoginTest -->
+      </class> <!-- com.chs.testsCases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,7 +3,7 @@
 
 	<test name="Login Test">
 		<classes>
-			<class name="com.chs.testsAccount.LoginTest"></class>
+			<class name="com.chs.testsCases.LoginTest"></class>
 		</classes>
 
 	</test>
