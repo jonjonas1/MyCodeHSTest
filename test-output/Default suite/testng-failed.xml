@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.chs.testsCases.LoginTest">
+      <class name="testNGDataFreeCRM.LoginTest">
         <methods>
           <include name="tearDown"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
-          <include name="StudentSign"/>
         </methods>
-      </class> <!-- com.chs.testsCases.LoginTest -->
+      </class> <!-- testNGDataFreeCRM.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
